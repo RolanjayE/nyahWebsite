@@ -31,9 +31,9 @@ header img {
     height: 30px;
 }
 
-.mains {
+.main {
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
                 url('../images/imgOne.jpeg');
     background-position: center;
@@ -91,7 +91,7 @@ header img {
     color: blue;
 }
 
-@media (max-width: 868px) {
+@media (max-width: 768px) {
     .main-product {
         grid-template-columns: repeat(1, 1fr);
     }
